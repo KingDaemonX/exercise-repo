@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	// section1
 	// swap
 	log.Println(section1.SwapVariableByReassigning(1, 2))
 	log.Println(section1.SwapVariableWithReturn(9, 7))
@@ -23,4 +24,6 @@ func main() {
 
 	console_logger := &section1.ConsoleLogger{}
 	console_logger.Log("Hello World, This is a SWE logging to the console ")
+
+	// section 2
 }
