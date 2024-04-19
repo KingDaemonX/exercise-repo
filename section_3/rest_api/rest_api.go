@@ -2,12 +2,12 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 
 	"github.com/google/uuid"
 )
 
-// Task represents a todo item
 type Task struct {
 	ID    uuid.UUID `json:"id"`
 	Title string    `json:"title"`
